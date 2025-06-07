@@ -1,1 +1,290 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+  }
+  
+  .frompros {
+    font-weight: 100
+  }
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .first{
+    background-image: url("https://i.postimg.cc/Y9yBSftb/background-1-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1093px
+  }
+  button.register {
+    background-color: #c271ff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+
+  }
+  button.register:hover {
+    background-color: #a450e5;
+  }
+  .section-title {
+  color: #c271ff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: center;
+}
+.profiles {
+    display: flex;              /* puts them in a row */
+    justify-content: center;    /* centers them horizontally */
+    gap: 110px;                  /* space between them */
+    margin-top: 70px;
+    flex-wrap: wrap;            /* lets them stack on small screens */
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .profile img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;         /* makes the image round */
+    object-fit: cover;          /* keeps image from stretching */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .profile h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+    color: white
+  }
+  
+  /* Description */
+  .profile p {
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  .learnfrompros h2{
+    font: 'Source Sans Pro';
+    margin-top: -100px
+  }
+
+  .title {
+    font-size: 105px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: -45px;
+    line-height: 1.1;
+  }
+  
+  .tagline {
+    display: flex;
+    gap: 60px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    color: white;
+    justify-content: center;
+  }
+  
+  .firstpage {
+    height: 100vh;                    /* Full screen height */
+    display: flex;
+    flex-direction: column;          /* Stack items vertically */
+    justify-content: center;         /* Center vertically */
+    align-items: center;             /* Center horizontally */
+    text-align: center;
+    color: white;  
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 30px 100px
+  }
+
+  header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 35px
+    
+  }
+  nav a {
+    color: white;          
+    text-decoration: none;    
+    font-weight: bold;        
+    font-size: 10px;
+    transition: color 0.3s;
+    margin-left: 40px; 
+  }
+  nav a:hover {
+    color: #b48eff;            
+  }
+
+
+  .quote {
+    display: flex;
+    align-items: center;
+    padding: 80px 100px;
+    background-color: #c271ff;
+    color: white;
+    gap: 40px;
+    margin-right: -80px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .quote img{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;         
+    object-fit: cover
+  }
+  .quote blockquote{
+    font: "Source San Pro";
+    line-height: 1.8;
+    font-size: 18px;
+    width: 650px;
+  }
+  .quote p{
+    margin-top: -10px;
+    font-size: 18px
+  }
+  .fourppl {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+  }
+ .card {
+    transform: scale(0.85); /* or 0.8, etc. */
+    transform-origin: top center; /* so they shrink from the top */
+    
+  }
+
+  .fourppl h1 {
+    margin-bottom: 50px;
+    font-weight: 350;
+
+  }
+
+  .photo img {
+    margin-right: 10px
+  }
+  
+  .smile {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 50px;
+    background-color: #071629;
+    color: white;
+    font-weight: 100;
+  }
+  .smile p{
+    font-size: 12px
+  }
+  .smile h2{
+    font-size: 17px;
+    font-weight: 400
+  }
+  .smile img{
+    margin-top: 20px;
+    transform: scale(0.8)
+  }
+  .mem {
+    font-weight: 100
+  }
+  .smile .register{
+    margin-top: 40px
+  }
+
+  .faq p{
+    color: rgba(7, 22, 41, 0.5);
+    font-size: 13px;
+    font-weight: 500
+  }
+  .faq h2{
+    font-size: 16px ;
+    font-weight: bold
+  }
+  .faq h1{
+    font-weight:100;
+    font-size:60px
+  }
+  .faq {
+    padding: 70px;
+    margin-top: 0;
+    padding-top: 0
+
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #071629;
+    height:100px;
+    padding: 150px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-center {
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    margin-bottom: -240px;
+    font-size: 11px;
+    color: rgba(256, 256, 256, 0.5);
+  }
+  
+  .footer-left .logo {
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .footer-left .brand {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .footer-right a {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .footer-right a img.icon {
+    height: 30px;
+    width: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-right a:hover img.icon {
+    transform: scale(1.1);
+  }
+  
+
+  
+  
+  
